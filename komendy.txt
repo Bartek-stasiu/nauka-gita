@@ -1,2 +1,17 @@
-autoprefixer-cli -o main.prefixed.css main.css
-html-validate FILENAME..
+autoprefixer-cli
+instalcja: npm i autoprefixer-cli --save-dev
+uruchomienie: autoprefixer-cli -o main.prefixed.css main.css
+
+html-validate
+instalcja: npm i html-validate --save-dev
+uruchomienie: 
+Create .htmlvalidate.json
+
+add
+{
+  "extends": [
+    "html-validate:recommended"
+  ],
+}
+
+node_modules/.bin/html-validate yourfile.html
