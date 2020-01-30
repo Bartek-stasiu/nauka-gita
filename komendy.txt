@@ -1,6 +1,6 @@
 autoprefixer-cli
 instalcja: npm i autoprefixer-cli --save-dev
-uruchomienie: autoprefixer-cli -o main.prefixed.css main.css
+uruchomienie: autoprefixer-cli -o style.prefixed.css style.css
 
 html-validate
 instalcja: npm i html-validate --save-dev
